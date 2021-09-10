@@ -1,0 +1,7 @@
+img {
+ 
+     max-width: 100%; 
+     border-radius: 50%; 
+     border: 15px inset black;
+     opacity: 1.0;
+ }
