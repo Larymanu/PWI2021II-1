@@ -1,0 +1,29 @@
+table, tr{
+    border: 1px solid rgb(11, 8, 238);
+    border-collapse: collapse;
+    background-color: rgb(88, 3, 3);
+}
+
+td, th{
+    border: 1px solid rgb(11, 8, 238);
+    border-collapse: collapse;
+    color: white;
+
+}
+
+tr:first-child {
+    background-color: rgb(31, 7, 250);
+    color: #FFFFFF;
+}
+
+tr:last-child {
+    background-color: rgb(4, 241, 75);
+    color: #FFFFFF;
+    text-align: center; 
+ 
+}
+
+tr:hover {
+    opacity: 0.5;  
+}
+
