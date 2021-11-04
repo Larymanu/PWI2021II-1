@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        label{color: rgb(12, 210, 245);}
+        body {color: rgb(238, 54, 8);}
+        body {background: rgb(140, 82, 247);}
+        input {background-color: black;}
+        input {color: white;}
+        textarea {background-color: black;}
+        textarea {color: white;}
+        button {background-color: black;}
+        button {color: white;}
+
+
+    </style>
+    <body>
+        <h1>Elementos HTML</h1>
+
+        <form action="/action_page.php">
+            <fieldset>
+                <legend>Preencha os Campos</legend>
+
+                <label for="name">Nome Completo</label>
+                <input type="text" id="name" name="name"> <br>
+                <label for="idade">Idade</label>
+                <input type="text" id="idade" name="idade"> <br>
+                <label for="CPF">CPF</label>
+                <input type="text" id="CPF" name="CPF"><BR>
+
+
+                <label for="Estado">Estado</label>
+                <input list="Estado" name="Estado">
+                <datalist id="Estado">
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                    <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                    <option value="Bahia">Bahia</option>
+                    <option value="Minas Gerais">Minas Gerais</option>
+                </datalist><br><BR>         
+    
+                <input type="submit"> <br> <br>
+
+            </fieldset>
+
+            <textarea name="Mensagem" rows="1" cols="40">Cadastro para pessoa fisica por Estado</textarea><br><Br>
+          
+        </form> 
+        <button type="button" onclick="alerta('ENVIAR CADASTRO !!')">Avançar</button>
+
+
+    </body>
+
+</html> 
